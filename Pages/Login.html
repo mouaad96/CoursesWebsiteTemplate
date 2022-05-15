@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login__signin-container">
+        <div class="login-container">
+          <h1 class="login-header">تسجيل الدخول</h1>
+          <div class="user-name">
+            <i class="fas fa-user"></i>
+            <input type="text" id="user" placeholder="اسم المستخدم" />
+          </div>
+
+          <div class="pass-word">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="كلمة السر" id="pass" />
+          </div>
+          <div class="login-page-buttons">
+            <button class="login-bnt">الدخول</button>
+            <a class="back-btn" href="/index.html">الرجوع للصفحة الرئيسية</a>
+            <a class="forgot-pass" href="#">نسيت كلمة السر؟</a>
+            <span>أو</span>
+            <div class="login-methods">
+              <a href=""><i class="fab fa-google"></i></a>
+              <a href=""><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="signin-container">
+            <h1 class="login-header">إنشاء حساب</h1>
+          <div class="signin-user-name">
+            <i class="fas fa-user"></i>
+            <input type="text"  placeholder="اسم المستخدم" />
+          </div>
+
+          <div class="signin-pass-word">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="كلمة السر" />
+          </div>
+
+          <div class="signin-re_pass-word">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="اعد كتابة كلمة السر"  />
+          </div>
+          <div class="signin-email">
+            <i class="fas fa-at"></i>
+            <input type="email" placeholder="البريد الإلكتروني" />
+          </div>
+          
+          <div class="login-page-buttons">
+            <button class="signin">إنشاء الحساب</button>
+            <a class="back-btn" href="/index.html">الرجوع للصفحة الرئيسية</a>
+            <a class="forgot-pass-sign" href="#">نسيت كلمة السر؟</a>
+            <span>أو</span>
+            <div class="login-methods">
+              <a href=""><i class="fab fa-google"></i></a>
+              <a href=""><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="login-img-container">
+        <div class="create-account">
+          <p class="create-text">يمكنك الاشتراك على موقعنا بالمجان !</p>
+          <input type="button" value="أنشئ حسابك" class="signin-btn"> </input>
+        </div>
+        <img src="/Assets/images/login.jpg" alt="" />
+      </div>
+    </div>
+
+    <script src="../login.js"></script>
+  </body>
+</html>
